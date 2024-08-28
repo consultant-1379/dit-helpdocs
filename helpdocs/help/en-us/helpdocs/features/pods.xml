@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task id="pods">
+  <title>Pods</title>
+  <taskbody>
+    <context>
+      <p>
+        A pod within the Deployment Inventory Tool is intended to be a representation of
+        a cloud pod. It includes information like the name of the Pod, the url to authenticate
+        against and the Network details.
+      </p>
+      <p><b>Objective</b></p>
+      <p>Create a new pod for the Deployment Inventory Tool</p>
+      <p>
+        <b>Outline</b>
+        <ol>
+          <li><xref href="#openPod">Open the Pod View</xref></li>
+          <li><xref href="#createPod">Create New Pod</xref></li>
+          <li><xref href="#enterDetails">Enter the Pod Details</xref></li>
+          <li><xref href="#savePod">Save Pod</xref></li>
+        </ol>
+      </p>
+    </context>
+    <steps>
+      <step id="openPod">
+        <cmd>Open the Pod View</cmd>
+        <info>
+          <p>Click the pod view from the nav bar at the top</p>
+        </info>
+      </step>
+      <step id="createPod">
+        <cmd>Create New Pod</cmd>
+        <info>
+          <p>Click the <b>Create new pod</b> button</p>
+        </info>
+      </step>
+      <step id="enterDetails">
+        <cmd>Enter the Pod Details</cmd>
+        <info>
+          <p>Enter the details as shown below.</p>
+          <p><b>NOTE:</b> Restrictions on the fields are as follows: </p>
+          <ul>
+            <li>All fields are required</li>
+            <li><b>Name</b> must be between 5 and 20 characters</li>
+            <li><b>Authentication URL</b> must be a valid URL</li>
+            <li><b>Network:</b> at least one valid network is needed</li>
+            <li><b>Network Name</b> must be unique within the pod</li>
+            <li><b>Virtual Router Redundancy Protocol Range Start</b> must be an integer between 1 and 255</li>
+            <li><b>Virtual Router Redundancy Protocol Range End</b> must be an integer between 1 and 255</li>
+            <li><b>IPv4 and IPv6 subnet cidr</b> must be a valid cidr address</li>
+            <li><b>IPv4 and IPv6 subnet gateway ip</b> must be a valid address</li>
+          </ul>
+        </info>
+      </step>
+      <step id="savePod">
+        <cmd>Save Pod</cmd>
+        <info>
+          <p>Click the <b>Save</b> button and you will be redirected back to the previous page</p>
+          <p><b>NOTE:</b> Pod will not save if any fields are invalid (RED in UI)</p>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>A New Pod is created in the Deployment Inventory Tool.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task id="documents">
+  <title>Documents</title>
+  <taskbody>
+    <context>
+      <p>
+        A document is generated from an associated schema. They are generally used as inputs into deployments such as the sed, the netsim information etc.
+        These documents make use of the <xref type="concept" href="../enmSedAutoPopulation.xml">autopopulation</xref> feature to populate all of the keys that it obtains from the associated schema.
+      </p>
+      <p><b>Objective</b></p>
+      <p>Create a new document for the Deployment Inventory Tool</p>
+      <p>
+        <b>Outline</b>
+        <ol>
+          <li><xref href="#openDocument">Open the Document View</xref></li>
+          <li><xref href="#createDocument">Create New Document</xref></li>
+          <li><xref href="#enterDetails">Enter the Document Details</xref></li>
+          <li><xref href="#saveDocument">Save Document</xref></li>
+        </ol>
+      </p>
+    </context>
+    <prereq>
+      <p>To create a new document the user must have the following:</p>
+      <ul>
+        <li>Associated Schema already created in the tool</li>
+      </ul>
+    </prereq>
+    <steps>
+      <step id="openDocument">
+        <cmd>Open the Document View</cmd>
+        <info>
+          <p>Click the document view from the nav bar at the top</p>
+          <p>Select document type from dropdown (SED, Managed Config or Other)</p>
+        </info>
+      </step>
+      <step id="createDocument">
+        <cmd>Create New Document</cmd>
+        <info>
+          <p>Click the <b>Create new document</b> button</p>
+        </info>
+      </step>
+      <step id="enterDetails">
+        <cmd>Enter the Document Details</cmd>
+        <info>
+          <p>Enter the details as shown below.</p>
+          <p><b>NOTE:</b> Restrictions on the fields are as follows: </p>
+          <ul>
+            <li><b>Name</b> must be between 5 and 80 characters</li>
+            <li><b>Show Snapshots</b> option may be turned on if you want snapshot versions of schemas to be visible in the next step</li>
+            <li><b>Schema</b> must be an existing schema</li>
+            <li>Based on schema chosen you will need to fill out the document as needed.</li>
+            <li><b>Auto Populate</b> option for SEDs may be turned on and off. When fields are autopopulated they are removed from the UI, \n
+             more info can be found <xref type="concept" href="../enmSedAutoPopulation.xml">here</xref>.</li>
+            <li>If you have an existing document you wish to paste in the <b>Paste Mode</b> can be toggled.</li>
+            <li><b><xref type="concept" href="../managedConfigs.xml">Managed Configs</xref></b> can be attached using the + symbol.</li>
+          </ul>
+        </info>
+      </step>
+      <step id="saveDocument">
+        <cmd>Save Document</cmd>
+        <info>
+          <p>Click the <b>Save</b> button and you will be redirected back to the previous page</p>
+          <p><b>NOTE:</b> Document will not save if any fields are invalid (RED in UI)</p>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>A New Document is created in the Deployment Inventory Tool.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site>
+   <title>Deployment Inventory Tool</title>
+   <homeTitle>Home</homeTitle>
+   <home>
+       <blocks>
+           <block color="purple" icon="page" href="enmSedAutoPopulation.xml">
+               <title>ENM SED Auto Population</title>
+               <desc>Learn about DIT's SED autopopulation feature.</desc>
+           </block>
+           <block color="green" icon="page" href="managedConfigs.xml">
+               <title>Managed Configs</title>
+               <desc>Learn about DIT's Managed Configs.</desc>
+           </block>
+           <block color="blue" icon="page" href="features.xml">
+               <title>Features</title>
+               <desc>Learn the key features of DIT.</desc>
+           </block>
+           <block color="darkblue" href="/apidocs" scope="external">
+                <title>REST API Documentation</title>
+                <desc>Learn how to use the REST API for DIT.</desc>
+            </block>
+       </blocks>
+   </home>
+</site>

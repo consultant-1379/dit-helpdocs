@@ -1,0 +1,3 @@
+image:
+  repository: armdocker.rnd.ericsson.se/proj_openstack_tooling/dit_help_docs
+  tag: 1.0.1-01

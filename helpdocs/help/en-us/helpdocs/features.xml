@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<concept id="Features">
+    <title>Features</title>
+    <conbody>
+        <section>
+            <p>These pages provide information on all of the features in the Deployment Inventory Tool</p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/pods.xml" type="task">Pods</xref>
+            </p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/projects.xml" type="task">Projects</xref>
+            </p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/schemas.xml" type="task">Schemas</xref>
+            </p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/documents.xml" type="task">Documents</xref>
+            </p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/deployments.xml" type="task">Deployments</xref>
+            </p>
+            <p>
+                <image href="/resources/images/common/tutorial.svg" alt="Tutorial" align="left"/>
+                <xref href="features/labels.xml" type="task">Labels</xref>
+            </p>
+        </section>
+    </conbody>
+</concept>
